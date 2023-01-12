@@ -1,24 +1,38 @@
-import logo from './logo.svg';
 import './App.css';
+import BreathingAnimation from './components/BreathingAnimation';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+   
+      <div className="headertext">
+          <h1 className="gradient-text">You're having a panic attack</h1>
+          <h3>....you are going to be ok, this is temporary. </h3>
+          <br></br>
+          <h3> This is just Adrenaline going silly and overwhelming your bodys fight/flight response.</h3>
+          </div>
+
+    <sidecolumn1>
+    <div className="box">
+    <h2>Say OUT LOUD... </h2>
+    <p>8 things you can see</p>
+      <p>4 things you can touch</p>
+      <p>2 things you can hear</p>
+      <p>1 thing you can smell</p>
+      <p>repeat.</p>
+      <br></br>
+      <p className="smalltext">If you can't hear or smell keep going with the others</p>
     </div>
+    </sidecolumn1>
+
+     <div className="sidecolumn2">
+    <div className="box">
+      <h2>Breath</h2>
+     <BreathingAnimation/>
+    </div>
+    </div>
+    <p>*try eating a sour sweet and putting ice on your wrists</p>
+  </div>
   );
 }
 

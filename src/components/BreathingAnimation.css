@@ -1,0 +1,55 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.start-small {
+  width: 30px;
+  height: 30px;
+}
+
+.circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 4s ease-in-out;
+  margin: 50px;
+}
+
+.instructions {
+  text-align: center;
+  font-size: 2em;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.inhale {
+  transform: scale(1.5);
+  background-color: #ADD8E6; /* Pastel blue */
+}
+
+.hold {
+  transform: scale(1.5);
+  background-color: #ADD8E6; /* Pastel blue */
+}
+
+.exhale {
+  transform: scale(1);
+  background-color: #87CEEB; /* Pastel blue */
+}
+
+.counter {
+  text-align: center;
+  font-size: 1em;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.instructions-container {
+  display: flex;
+  flex-direction: column;
+}
