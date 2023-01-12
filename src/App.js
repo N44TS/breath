@@ -14,14 +14,14 @@ function App() {
 
     <sidecolumn1>
     <div className="box">
-    <h2>Say OUT LOUD... </h2>
+    <h2>Speak* </h2>
     <p>8 things you can see</p>
       <p>4 things you can touch</p>
       <p>2 things you can hear</p>
       <p>1 thing you can smell</p>
       <p>repeat.</p>
       <br></br>
-      <p className="smalltext">If you can't hear or smell keep going with the others</p>
+      <p className="smalltext">If you can't hear/smell keep going with the others *out loud</p>
     </div>
     </sidecolumn1>
 
