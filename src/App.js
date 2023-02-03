@@ -21,7 +21,7 @@ function App() {
       <p>1 thing you can smell</p>
       <p>repeat.</p>
       <br></br>
-      <p className="smalltext">If you can't hear/smell keep going with the others *out loud</p>
+      <p className="smalltext">If you can't hear/smell keep going with the others  *out loud</p>
     </div>
     </sidecolumn1>
 
@@ -31,7 +31,7 @@ function App() {
      <BreathingAnimation/>
     </div>
     </div>
-    <p>*try eating a sour sweet and putting ice on your wrists</p>
+    <p>Eat a sour sweet. Put ice on your wrists. Breath.</p>
   </div>
   );
 }
